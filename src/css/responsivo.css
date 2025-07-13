@@ -1,0 +1,157 @@
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  body {
+    background-image: url(../images/bg-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 1rem;
+    gap: 2rem;
+    max-width: 100%;
+  }
+
+  .principal .ilustracao {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .principal .conteudo {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .principal .conteudo h1,
+  .principal .conteudo p {
+    width: 100%;
+  }
+
+  .principal .botao {
+    width: 100%;
+    max-width: 320px;
+    height: 3.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 1rem;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem auto;
+  }
+
+  .social a i {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 425px) {
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  body {
+    background-image: url(../images/bg-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .principal {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+    gap: 2rem;
+    width: 100%;
+    max-width: 425px;
+  }
+
+  .principal .ilustracao {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+  }
+
+  .principal .conteudo {
+    width: 100%;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.2rem;
+    margin: 0 auto;
+  }
+
+  .principal .conteudo h1,
+  .principal .conteudo p {
+    width: 100%;
+    margin: 0;
+  }
+
+  .principal .botao {
+    width: 100%;
+    max-width: 320px;
+    height: 3.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 1rem;
+  }
+
+  .social {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .social a i {
+    font-size: 25px;
+  }
+}
